@@ -1,0 +1,38 @@
+body {
+  padding-top: 50px;
+  font-family: monospace;
+}
+.content {
+
+  padding: 40px 15px;
+  text-align: left;
+}
+
+.card {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.dead img {
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.dead .photo {
+  background: rgba(255, 0, 0, 0.5);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2;
+}
+
+h1 {
+  font-family: 'Road Rage', sans-serif;
+  color: #d30000;
+  text-align: center;
+}
