@@ -1,3 +1,6 @@
+# Gulp
+dest/
+
 # Logs
 logs
 *.log
@@ -74,7 +77,6 @@ web_modules/
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
-.parcel-cache
 
 # Next.js build output
 .next
@@ -107,9 +109,5 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# yarn v2
-
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.pnp.*
+# OSX
+.DS_Store
