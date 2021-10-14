@@ -14,7 +14,7 @@ function clean() {
 function build() {
   return gulp.src('./src/pages/*.hbs')
     .pipe(data(function(file) {
-      var dataFilePath = '.src/data/' + path.basename(file.stem) + '.json';
+      var dataFilePath = './src/data/' + path.basename(file.stem) + '.json';
       return fs.existsSync(dataFilePath) ? JSON.parse(fs.readFileSync(dataFilePath)) : null;
     }))
     .pipe(handlebars({}, {
