@@ -7,6 +7,10 @@ const data = require('gulp-data');
 var fs = require('fs');
 var path = require('path');
 
+handlebars.Handlebars.registerHelper('toLowerCaseSquashed', function(str) {
+  return str.toLowerCase().replace(/\s/g,'');
+});
+
 function clean() {
   return del('./dist/**/*');
 }
@@ -14,7 +18,7 @@ function clean() {
 function build() {
   return gulp.src('./src/pages/*.hbs')
     .pipe(data(function(file) {
-      var dataFilePath = '.src/data/' + path.basename(file.stem) + '.json';
+      var dataFilePath = './data/' + path.basename(file.stem) + '.json';
       return fs.existsSync(dataFilePath) ? JSON.parse(fs.readFileSync(dataFilePath)) : null;
     }))
     .pipe(handlebars({}, {
@@ -23,9 +27,6 @@ function build() {
       helpers: {
         ifEquals: function(arg1, arg2, options) {
           return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
-        },
-        toLowerCaseSquashed: function(str) {
-          return str.toLowerCase().replace(/\s/g,'');
         }
       },
     }))
