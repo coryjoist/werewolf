@@ -3,6 +3,13 @@ const handlebars = require('gulp-compile-handlebars');
 const rename = require('gulp-rename');
 const del = require('del');
 const minify = require('gulp-minify');
+const data = require('gulp-data');
+var fs = require('fs');
+var path = require('path');
+
+handlebars.Handlebars.registerHelper('toLowerCaseSquashed', function(str) {
+  return str.toLowerCase().replace(/\s/g,'');
+});
 
 function clean() {
   return del('./dist/**/*');
@@ -10,6 +17,10 @@ function clean() {
 
 function build() {
   return gulp.src('./src/pages/*.hbs')
+    .pipe(data(function(file) {
+      var dataFilePath = './data/' + path.basename(file.stem) + '.json';
+      return fs.existsSync(dataFilePath) ? JSON.parse(fs.readFileSync(dataFilePath)) : null;
+    }))
     .pipe(handlebars({}, {
       ignorePartials: true,
       batch: ['./src/partials'],
