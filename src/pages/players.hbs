@@ -3,10 +3,10 @@
   <div class="card-group">
 
     {{#each players}}
-      <div class="card">
-        <div class="photo"><img class="card-img-top" src="img/players/{{ toLowerCaseSquashed this }}.jpg" alt="{{ this }}"></div>
+      <div class="card {{#if dead}}dead{{/if}}">
+        <div class="photo"><img class="card-img-top" src="img/players/{{ toLowerCaseSquashed name }}.jpg" alt="{{ name }}"></div>
         <div class="card-body">
-          <h5 class="card-title">{{ this }}</h5>
+          <h5 class="card-title">{{ name }}</h5>
         </div>
       </div>
     {{/each}}

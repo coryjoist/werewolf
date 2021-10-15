@@ -1,19 +1,19 @@
 {
   "players": [
-    "Aldona",
-    "Atinder",
-    "Janki",
-    "Jason A",
-    "Jason S",
-    "Jim",
-    "Liz",
-    "Manu",
-    "Matthew",
-    "Rajat",
-    "Sandeep",
-    "Shivam",
-    "Tunji",
-    "Vrunda",
-    "Yang"
+    {"name":"Aldona"},
+    {"name":"Atinder"},
+    {"name":"Janki"},
+    {"name":"Jason A"},
+    {"name":"Jason S"},
+    {"name":"Jim"},
+    {"name":"Liz"},
+    {"name":"Manu"},
+    {"name":"Matthew", "dead":true},
+    {"name":"Rajat"},
+    {"name":"Sandeep", "dead":true},
+    {"name":"Shivam"},
+    {"name":"Tunji"},
+    {"name":"Vrunda", "dead":true},
+    {"name":"Yang"}
   ]
 }

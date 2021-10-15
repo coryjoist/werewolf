@@ -31,6 +31,10 @@ body {
   z-index: 2;
 }
 
+.dead {
+  color: red;
+}
+
 h1 {
   font-family: 'Road Rage', sans-serif;
   color: #d30000;
