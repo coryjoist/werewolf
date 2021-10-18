@@ -6,13 +6,13 @@
     {"name":"Jason A"},
     {"name":"Jason S"},
     {"name":"Jim"},
-    {"name":"Liz"},
-    {"name":"Manu"},
+    {"name":"Liz", "dead":true},
+    {"name":"Manu", "dead":true},
     {"name":"Matthew", "dead":true},
     {"name":"Rajat"},
     {"name":"Sandeep", "dead":true},
     {"name":"Shivam"},
-    {"name":"Tunji"},
+    {"name":"Tunji", "dead":true},
     {"name":"Vrunda", "dead":true},
     {"name":"Yang"}
   ]
