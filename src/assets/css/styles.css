@@ -12,6 +12,11 @@ body {
   display: inline-block;
   text-align: center;
   margin: 10px;
+  border: solid #333 2px;
+}
+
+.dead {
+  border: 2px solid rgba(0,0,0,0);
 }
 
 .card img {
