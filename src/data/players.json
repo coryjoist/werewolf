@@ -3,7 +3,7 @@
     {"name":"Aldona"},
     {"name":"Atinder"},
     {"name":"Janki"},
-    {"name":"Jason A"},
+    {"name":"Jason A", "dead":true},
     {"name":"Jason S"},
     {"name":"Jim"},
     {"name":"Liz", "dead":true},
@@ -11,7 +11,7 @@
     {"name":"Matthew", "dead":true},
     {"name":"Rajat"},
     {"name":"Sandeep", "dead":true},
-    {"name":"Shivam"},
+    {"name":"Shivam", "dead":true},
     {"name":"Tunji", "dead":true},
     {"name":"Vrunda", "dead":true},
     {"name":"Yang"}
