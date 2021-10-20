@@ -1,0 +1,21 @@
+{{#> layouts/base title="🪦 Joiston Cemetary 🪦" }}
+
+  <div class="cemetary">
+
+    {{#each graves}}
+      <div class="gravestone">
+        <div class="header">Here Lies</div>
+        <div class="name">&#8203;{{ name }}</div>
+        <div class="lines">&#8203;{{ line1 }}</div>
+        <div class="lines">&#8203;{{ line2 }}</div>
+        <div class="lines">&#8203;{{ line3 }}</div>
+        <div class="lines">&#8203;{{ line4 }}</div>
+        <div class="died">Died {{ died }}</div>
+        <div class="method">&#8203;{{ method }}</div>
+      </div>
+    {{/each}}
+
+  </div>
+
+
+{{/layouts/base}}

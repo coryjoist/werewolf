@@ -45,3 +45,36 @@ h1 {
   color: #d30000;
   text-align: center;
 }
+
+
+
+.gravestone {
+  width: 600px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("../img/gravestone.png");
+  margin: 10px;
+
+  color: #444;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: serif;
+  padding-top: 100px;
+  text-shadow: 2px -2px #999;
+  font-size: 10px;
+}
+
+.gravestone, .name {
+  margin-top: -5px;
+  margin-bottom: 5px;
+  font-size: 28px;
+}
+.gravestone, .lines {
+  font-size: 20px;
+}
+.gravestone, .died {
+  margin-top: 10px;
+  font-size: 12px;
+}

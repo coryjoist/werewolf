@@ -1,0 +1,13 @@
+{
+  "graves": [
+    {"name":"Sandeep", "method": "Hanging", "died": "Day 1"},
+    {"name":"Matthew", "method": "Hunting Accident", "line1": "he aimed for the heart", "line2": "in the name of love", "line4": "but was shot himself in revenge", "died": "Day 1"},
+    {"name":"Vrunda", "method": "Animal Attack", "died": "Day 1"},
+    {"name":"Manu", "method": "Hanging", "died": "Day 2"},
+    {"name":"Tunji", "method": "Animal Attack", "line1": "liz's blessing", "line2": "and death sentence", "died": "Day 2"},
+    {"name":"Liz", "method": "Heartbreak", "died": "Day 2"},
+    {"name":"Shivam", "method": "Hanging", "died": "Day 3"},
+    {"name":"Jason A", "method": "Animal Attack", "died": "Day 3"},
+    {"name":"Aldona", "method": "Hanging", "line1": "finally", "line2": "we can trust her again", "line3": "", "died": "day 4"}
+  ]
+}
