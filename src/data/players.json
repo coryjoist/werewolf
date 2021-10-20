@@ -1,6 +1,6 @@
 {
   "players": [
-    {"name":"Aldona"},
+    {"name":"Aldona", "dead":true},
     {"name":"Atinder"},
     {"name":"Janki"},
     {"name":"Jason A", "dead":true},
