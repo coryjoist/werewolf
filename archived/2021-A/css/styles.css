@@ -1,0 +1,51 @@
+body {
+  padding-top: 50px;
+  font-family: monospace;
+}
+.content {
+
+  padding: 40px 15px;
+  text-align: left;
+}
+
+.card {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  border: solid #333 2px;
+}
+
+.dead {
+  border: 2px solid rgba(0,0,0,0);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.dead img {
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.dead .photo {
+  background: rgba(255, 0, 0, 0.5);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2;
+}
+
+.dead {
+  color: red;
+}
+
+h1 {
+  font-family: 'Road Rage', sans-serif;
+  color: #d30000;
+  text-align: center;
+}
+
+.cemetary img {
+  width: 300px;
+}
