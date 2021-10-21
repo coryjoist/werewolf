@@ -6,7 +6,6 @@ on:
     - master
     paths-ignore:
     - '.github/**'
-    - 'archived/**'
     - '**.md'
 jobs:
   build-and-deploy:
@@ -19,6 +18,13 @@ jobs:
       run: |
         npm install
         gulp
+
+    - name: Build 2021-A
+      run: |
+        cd archived/2021-A
+        npm install
+        gulp
+        cp dist ../dist/archived/2021-A
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.5
