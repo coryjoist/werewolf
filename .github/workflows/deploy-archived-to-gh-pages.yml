@@ -7,7 +7,7 @@ on:
     paths:
     - 'archived/**'
     paths-ignore:
-    - .github/**
+    - '.github/**'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
