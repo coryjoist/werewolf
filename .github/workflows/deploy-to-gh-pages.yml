@@ -24,7 +24,9 @@ jobs:
         cd archived/2021-A
         npm install
         gulp
-        cp dist ../dist/archived/2021-A
+        mkdir -p ../../dist/archived/2021-A
+        cp -R dist/* ../../dist/archived/2021-A
+        cd ../..
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.5
