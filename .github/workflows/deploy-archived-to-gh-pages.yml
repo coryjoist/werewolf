@@ -19,6 +19,7 @@ jobs:
 
     - name: Amalgamate all archived subdirs
       run: |
+        mkdir dist
         find . -mindepth 1 -maxdepth 1 -type d \( ! -name . \) -exec bash -c "cp '{}/dist/' 'dist/{}'" \;
 
     - name: Deploy 🚀
