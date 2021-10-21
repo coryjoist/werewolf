@@ -3,7 +3,10 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+    - master
+    paths-ignore:
+    - 'archived/**'
+    - '**.md'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
