@@ -6,8 +6,6 @@ on:
     - master
     paths:
     - 'archived/**'
-    paths-ignore:
-    - '.github/**'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
