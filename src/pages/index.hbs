@@ -2,14 +2,18 @@
 
   <div id="countdown">&nbsp;</div>
 
-  <p class="lead">Day -1:</p>
+  <p class="lead">Day 0: A New Dawn</p>
 
-
-
+  <p>Several years had passed and the town of Joiston had changed a lot. In fact, everyone that you might have known before as residents of Joiston had left the town. Any people now, although they might have the same name as someone from before, are not the same people. In addition, there are several new faces in town.</p>
+  <p>Misery has visited Joiston again. This time it seems it has been a pack of wild dogs that live on the outskirts of town and roam the streets at night. There had been many close calls and these dogs have become confident, emboldened perhaps.</p>
+  <p>As dawns breaks on this new day, we find a dead body in the square. As people exit their homes for the day, they exclaim “How could this have happened? We must do something about these dogs.”</p>
+  <p>A passerby – let’s call him Jim for the purposes of the story – approaches the body and commands the attention of the townsfolk.</p>
+  <p>“These are not dog bites!” Jim exclaimed! Many years ago when I lived here, Joiston was afflicted by wolves – WEREWOLVES. I thought we got rid of them then but it seems they’re back.</p>
+  <p>What will the townsfolk do?</p>
 
 
   <script>
-    var countDownDate = new Date("Oct 25, 2021 9:00:00-04:00").getTime();
+    var countDownDate = new Date("Oct 25, 2021 16:30:00-04:00").getTime();
 
     var x = setInterval(function() {
       var now = new Date().getTime();
@@ -19,7 +23,7 @@
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      document.getElementById("countdown").innerHTML = "Role assignments in approx " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+      document.getElementById("countdown").innerHTML = "Day 1 votes due in " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
       // document.getElementById("countdown").innerHTML = "Day 1 votes due in " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
       // If the count down is finished, write some text
