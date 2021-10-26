@@ -14,7 +14,7 @@
     {"name":"Sandeep"},
     {"name":"Tunji"},
     {"name":"Vrunda"},
-    {"name":"Yang"},
+    {"name":"Yang", "dead": true},
     {"name":"Zach"}
   ]
 }
