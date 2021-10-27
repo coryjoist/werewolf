@@ -9,12 +9,12 @@
     {"name":"Jason S"},
     {"name":"Katz"},
     {"name":"Liz"},
-    {"name":"Matthew"},
+    {"name":"Matthew", "dead": true},
     {"name":"Manu"},
     {"name":"Sandeep"},
     {"name":"Tunji"},
-    {"name":"Vrunda"},
+    {"name":"Vrunda", "dead": true},
     {"name":"Yang", "dead": true},
-    {"name":"Zach"}
+    {"name":"Zach", "dead": true}
   ]
 }
