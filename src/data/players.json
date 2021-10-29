@@ -1,6 +1,6 @@
 {
   "players": [
-    {"name":"Aldona"},
+    {"name":"Aldona", "dead": true},
     {"name":"Atinder"},
     {"name":"Brinda"},
     {"name":"Cory", "dead": true},
@@ -11,7 +11,7 @@
     {"name":"Liz"},
     {"name":"Matthew", "dead": true},
     {"name":"Manu"},
-    {"name":"Sandeep"},
+    {"name":"Sandeep", "dead": true},
     {"name":"Tunji"},
     {"name":"Vrunda", "dead": true},
     {"name":"Yang", "dead": true},
