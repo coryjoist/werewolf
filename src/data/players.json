@@ -2,7 +2,7 @@
   "players": [
     {"name":"Aldona", "dead": true},
     {"name":"Atinder"},
-    {"name":"Brinda"},
+    {"name":"Brinda", "dead": true},
     {"name":"Cory", "dead": true},
     {"name":"Janki"},
     {"name":"Jason A", "dead": true},
@@ -12,7 +12,7 @@
     {"name":"Matthew", "dead": true},
     {"name":"Manu", "dead": true},
     {"name":"Sandeep", "dead": true},
-    {"name":"Tunji"},
+    {"name":"Tunji", "dead": true},
     {"name":"Vrunda", "dead": true},
     {"name":"Yang", "dead": true},
     {"name":"Zach", "dead": true}
