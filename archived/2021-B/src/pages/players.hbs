@@ -1,0 +1,26 @@
+{{#> layouts/base title="Players" }}
+
+  <div class="card-group">
+
+    {{#each players}}
+      <div class="card {{#if dead}}dead{{/if}}">
+        <div class="photo"><img class="card-img-top" src="img/players/{{ toLowerCaseSquashed name }}.jpg" alt="{{ name }}"></div>
+        <div class="card-body">
+          <h5 class="card-title">{{ name }} {{ role }}</h5>
+        </div>
+      </div>
+    {{/each}}
+
+  </div>
+
+  <br/><br/>Moderator:
+  <div class="card-group">
+      <div class="card">
+        <div class="photo"><img class="card-img-top" src="img/players/jim.jpg" alt="Jim"></div>
+        <div class="card-body">
+          <h5 class="card-title">Jim</h5>
+        </div>
+      </div>
+  </div>
+
+{{/layouts/base}}

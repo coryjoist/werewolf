@@ -1,0 +1,20 @@
+{
+  "players": [
+    {"name":"Aldona", "dead": true},
+    {"name":"Atinder", "role": "🐺"},
+    {"name":"Brinda", "dead": true},
+    {"name":"Cory", "role": "🛡", "dead": true},
+    {"name":"Janki", "dead": true},
+    {"name":"Jason A", "role": "🔮", "dead": true},
+    {"name":"Jason S", "role": "🏹", "dead": true},
+    {"name":"Katz", "dead": true},
+    {"name":"Liz", "role": "🐺", "dead": true},
+    {"name":"Matthew", "role": "💕", "dead": true},
+    {"name":"Manu", "dead": true},
+    {"name":"Sandeep", "role": "🥰", "dead": true},
+    {"name":"Tunji", "dead": true},
+    {"name":"Vrunda", "dead": true},
+    {"name":"Yang", "dead": true},
+    {"name":"Zach", "role": "🐺💕", "dead": true}
+  ]
+}
