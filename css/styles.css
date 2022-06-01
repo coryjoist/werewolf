@@ -9,6 +9,10 @@ body {
   background-color: black;
 }
 
+.nav {
+  border-bottom: 2px solid black;
+}
+
 .content {
   padding: 40px 15px;
   text-align: left;
