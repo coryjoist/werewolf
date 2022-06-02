@@ -2,6 +2,8 @@
   "players": [
     {"name":"Aldona", "dead": false},
     {"name":"Paul", "dead": false},
-    {"name":"Peter", "dead": false}
+    {"name":"Peter", "dead": false},
+    {"name":"Sandeep", "dead": false},
+    {"name":"Valeriy", "dead": false}
   ]
 }
