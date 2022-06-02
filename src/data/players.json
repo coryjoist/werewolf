@@ -1,4 +1,5 @@
 {
   "players": [
+    {"name":"Paul", "dead": false}
   ]
 }
