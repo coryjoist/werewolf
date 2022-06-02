@@ -1,9 +1,13 @@
 {
   "players": [
     {"name":"Aldona", "dead": false},
+    {"name":"Dennis", "dead": false},
+    {"name":"Katz", "dead": false},
+    {"name":"Matt S", "dead": false},
     {"name":"Paul", "dead": false},
     {"name":"Peter", "dead": false},
     {"name":"Sandeep", "dead": false},
+    {"name":"Sushani", "dead": false},
     {"name":"Valeriy", "dead": false}
   ]
 }
