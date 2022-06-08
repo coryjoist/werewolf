@@ -2,6 +2,16 @@
 
   <div id="countdown">&nbsp;</div>
 
+  <p class="lead">Day 1: You Have Your Assignments</p>
+
+  <p>The coffee was nearly all poured out and seating was limited in the station briefing room. Detectives eyed each other quietly from the rows of tablet desks.</p>
+  <p>"Listen up!"</p>
+  <p>The Chief entered briskly from the entrance at the front of the room.</p>
+  <p>"And close that door at the back there! Look, I know half of you just transferred in and don't know your beltbuckle from your anklebone, but we've got a real sick set of individuals out there on this one and no time for hand-holding."</p>
+  <p>He produced a stack of papers from behind the podium at the front of the room, which were disseminated through the rows.</p>
+  <p>"Homer Garfield, 32: attacked while jogging in Jubilee Park, dead. Oprah Jetson, 27, and her grandmother Wilma, 63: mauled in the supermarket in broad daylight! The list goes on... the circumstances of the scenes indicate multiple truly violent offenders working together. You'll see from these reports that we have virtually no leads at this time, which I'm counting on you for. A-S-A-P.</p>
+  <p>As I'm sure you've also noticed by now, this department lacks the resources to formally partner you up as your orientation officer may have previously explained, but I expect you'll work together where you can. This room will be left open as a strategic point of information sharing. Now get the hell out of here and get me a suspect by 4:30!"</p>
+
   <p class="lead">Day 0: Who Is Accounted For</p>
 
   <p>Stan Spade slotted the stack of crimescene photos back into their envelope and tossed the wad across his desk. This wasn't the usual flophouse fisticuffs gone wrong- <i>these stiffs was all shredded up like cheese on a grater</i>. The press was gonna eat this up once they found out, and he knew he'd have the Chief riding his keister 'til it got sorted.</p>
@@ -16,7 +26,7 @@
   <p><img src="img/desk.webp" style="display: block; margin-left: auto;margin-right: auto;width: 50%;"></p>
 
   <script>
-    var countDownDate = new Date("Jun 8, 2022 9:00:00-04:00").getTime();
+    var countDownDate = new Date("Jun 8, 2022 16:30:00-04:00").getTime();
 
     var x = setInterval(function() {
       var now = new Date().getTime();
@@ -26,7 +36,7 @@
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      document.getElementById("countdown").innerHTML = "Game begins in " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+      document.getElementById("countdown").innerHTML = "Day 1 votes due in " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
       // document.getElementById("countdown").innerHTML = "Day 1 votes due in " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
       // If the count down is finished, write some text
