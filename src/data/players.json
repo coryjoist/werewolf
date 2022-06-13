@@ -6,7 +6,7 @@
     {"name":"Dave", "dead": false},
     {"name":"Dennis", "dead": true},
     {"name":"Eula", "dead": true},
-    {"name":"Janki", "dead": false},
+    {"name":"Janki", "dead": true},
     {"name":"Jason A", "dead": false},
     {"name":"Jason S", "dead": true},
     {"name":"Katz", "dead": false},
