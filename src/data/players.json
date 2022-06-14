@@ -11,13 +11,13 @@
     {"name":"Jason S", "dead": true},
     {"name":"Katz", "dead": false},
     {"name":"Liz", "dead": true},
-    {"name":"Matt S", "dead": false},
+    {"name":"Matt S", "dead": true},
     {"name":"Paul", "dead": false},
     {"name":"Peter", "dead": false},
     {"name":"Sandeep", "dead": false},
     {"name":"Sushani", "dead": true},
     {"name":"Tunji", "dead": false},
     {"name":"Valeriy", "dead": true},
-    {"name":"Wendy", "dead": false}
+    {"name":"Wendy", "dead": true}
   ]
 }
