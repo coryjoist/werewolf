@@ -2,7 +2,7 @@
   "players": [
     {"name":"Aldona", "dead": true},
     {"name":"Alex", "dead": true},
-    {"name":"Aleks", "dead": false},
+    {"name":"Aleks", "dead": true},
     {"name":"Dave", "dead": false},
     {"name":"Dennis", "dead": true},
     {"name":"Eula", "dead": true},
@@ -16,7 +16,7 @@
     {"name":"Peter", "dead": false},
     {"name":"Sandeep", "dead": false},
     {"name":"Sushani", "dead": true},
-    {"name":"Tunji", "dead": false},
+    {"name":"Tunji", "dead": true},
     {"name":"Valeriy", "dead": true},
     {"name":"Wendy", "dead": true}
   ]
