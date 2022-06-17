@@ -1,23 +1,23 @@
 {
   "players": [
-    {"name":"Aldona", "dead": true},
+    {"name":"Aldona", "dead": true, "role": "💕"},
     {"name":"Alex", "dead": true},
     {"name":"Aleks", "dead": true},
     {"name":"Dave", "dead": true},
     {"name":"Dennis", "dead": true},
-    {"name":"Eula", "dead": true},
+    {"name":"Eula", "dead": true, "role": "💕"},
     {"name":"Janki", "dead": true},
     {"name":"Jason A", "dead": true},
-    {"name":"Jason S", "dead": true},
+    {"name":"Jason S", "dead": true, "role": "🏹"},
     {"name":"Katz", "dead": false},
-    {"name":"Liz", "dead": true},
-    {"name":"Matt S", "dead": true},
-    {"name":"Paul", "dead": false},
-    {"name":"Peter", "dead": false},
+    {"name":"Liz", "dead": true, "role": "🐺"},
+    {"name":"Matt S", "dead": true, "role": "🏹"},
+    {"name":"Paul", "dead": false, "role": "🔮"},
+    {"name":"Peter", "dead": true, "role": "🐺"},
     {"name":"Sandeep", "dead": false},
-    {"name":"Sushani", "dead": true},
-    {"name":"Tunji", "dead": true},
+    {"name":"Sushani", "dead": true, "role": "💘"},
+    {"name":"Tunji", "dead": true, "role": "🐺"},
     {"name":"Valeriy", "dead": true},
-    {"name":"Wendy", "dead": true}
+    {"name":"Wendy", "dead": true, "role": "🐺"}
   ]
 }
