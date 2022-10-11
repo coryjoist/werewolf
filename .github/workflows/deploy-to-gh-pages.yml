@@ -37,6 +37,15 @@ jobs:
         cp -R dist/* ../../dist/archived/2021-B
         cd ../..
 
+    - name: Build 2022-JUN
+      run: |
+        cd archived/2022-JUN
+        npm install
+        gulp
+        mkdir -p ../../dist/archived/2022-JUN
+        cp -R dist/* ../../dist/archived/2022-JUN
+        cd ../..
+
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.5
       with:
