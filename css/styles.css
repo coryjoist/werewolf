@@ -1,7 +1,7 @@
 body {
   padding-top: 50px;
   font-family: monospace;
-  background-image: url("../img/banner.png");
+  background-image: url("../img/banner.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -53,8 +53,10 @@ body {
 
 h1 {
   font-family: 'Road Rage', sans-serif;
-  color: #d30000;
+  color: #4e0000;
   text-align: center;
+  -webkit-text-fill-color: #d30000;
+  -webkit-text-stroke: 1px;
 }
 
 #countdown {
