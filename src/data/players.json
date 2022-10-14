@@ -1,6 +1,7 @@
 {
   "players": [
     {"name":"Aldona", "dead": false},
+    {"name":"Aleks", "dead": false},
     {"name":"Anna", "dead": false},
     {"name":"Dami", "dead": false},
     {"name":"Dave", "dead": false},
