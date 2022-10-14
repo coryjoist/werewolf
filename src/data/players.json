@@ -1,15 +1,20 @@
 {
   "players": [
     {"name":"Aldona", "dead": false},
+    {"name":"Dami", "dead": false},
     {"name":"Dave", "dead": false},
     {"name":"Eula", "dead": false},
     {"name":"Jason S", "dead": false},
     {"name":"Katz", "dead": false},
     {"name":"Kota", "dead": false},
+    {"name":"Matthew", "dead": false},
     {"name":"Paul", "dead": false},
     {"name":"Peter", "dead": false},
+    {"name":"Sandeep", "dead": false},
     {"name":"Shaider", "dead": false},
+    {"name":"Sunny", "dead": false},
     {"name":"Sushani", "dead": false},
+    {"name":"Vidhi", "dead": false},
     {"name":"Wendy", "dead": false}
   ]
 }
