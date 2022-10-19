@@ -6,11 +6,11 @@
     {"name":"Eula - Jason S", "dead": false},
     {"name":"Katz - Kota", "dead": false},
     {"name":"Matthew I - Matt S", "dead": false},
-    {"name":"Paul - Peter", "dead": false},
+    {"name":"Paul - Peter", "dead": true},
     {"name":"Ryan - Sandeep", "dead": false},
     {"name":"Shaider - Sharon", "dead": false},
     {"name":"Sunny - Sushani", "dead": false},
     {"name":"Tunji - Valeriy", "dead": false},
-    {"name":"Vidhi - Wendy", "dead": false}
+    {"name":"Vidhi - Wendy", "dead": true}
   ]
 }
