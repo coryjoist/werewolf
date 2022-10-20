@@ -1,9 +1,9 @@
 {
   "players": [
-    {"name":"Aldona - Aleks", "dead": false},
+    {"name":"Aldona - Aleks", "dead": true},
     {"name":"Dami", "dead": false},
     {"name":"Dave - Dennis", "dead": false},
-    {"name":"Eula - Jason S", "dead": false},
+    {"name":"Eula - Jason S", "dead": true},
     {"name":"Katz - Kota", "dead": false},
     {"name":"Matthew I - Matt S", "dead": false},
     {"name":"Paul - Peter", "dead": true},
