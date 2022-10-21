@@ -5,12 +5,12 @@
     {"name":"Dave - Dennis", "dead": false},
     {"name":"Eula - Jason S", "dead": true},
     {"name":"Katz - Kota", "dead": false},
-    {"name":"Matthew I - Matt S", "dead": false},
+    {"name":"Matthew I - Matt S", "dead": true},
     {"name":"Paul - Peter", "dead": true},
     {"name":"Ryan - Sandeep", "dead": false},
     {"name":"Shaider - Sharon", "dead": false},
-    {"name":"Sunny - Sushani", "dead": false},
-    {"name":"Tunji - Valeriy", "dead": false},
+    {"name":"Sunny - Sushani", "dead": true},
+    {"name":"Tunji - Valeriy", "dead": true},
     {"name":"Vidhi - Wendy", "dead": true}
   ]
 }
