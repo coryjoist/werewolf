@@ -1,16 +1,16 @@
 {
   "players": [
-    {"name":"Aldona - Aleks", "dead": true},
-    {"name":"Dami", "dead": false},
-    {"name":"Dave - Dennis", "dead": false},
-    {"name":"Eula - Jason S", "dead": true},
-    {"name":"Katz - Kota", "dead": false},
+    {"name":"Aldona - Aleks", "dead": true, "role": "💘"},
+    {"name":"Dami", "dead": true, "role": "🏹"},
+    {"name":"Dave - Dennis", "dead": true},
+    {"name":"Eula - Jason S", "dead": true, "role": "🔮"},
+    {"name":"Katz - Kota", "dead": true},
     {"name":"Matthew I - Matt S", "dead": true},
-    {"name":"Paul - Peter", "dead": true},
-    {"name":"Ryan - Sandeep", "dead": false},
-    {"name":"Shaider - Sharon", "dead": false},
-    {"name":"Sunny - Sushani", "dead": true},
-    {"name":"Tunji - Valeriy", "dead": true},
+    {"name":"Paul - Peter", "dead": true, "role": "🛡️"},
+    {"name":"Ryan - Sandeep", "dead": false, "role": "🐺"},
+    {"name":"Shaider - Sharon", "dead": true, "role": "🐺"},
+    {"name":"Sunny - Sushani", "dead": true, "role": "💕"},
+    {"name":"Tunji - Valeriy", "dead": true, "role": "💕"},
     {"name":"Vidhi - Wendy", "dead": true}
   ]
 }
